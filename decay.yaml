@@ -28,7 +28,7 @@ model_params:
   roi_nms_threshold : 0.3
   roi_topk_detections : 300
   roi_score_threshold : 0.05
-  roi_batch_size : 512
+  roi_batch_size : 128
   roi_pos_fraction : 0.25
 
 train_params:
