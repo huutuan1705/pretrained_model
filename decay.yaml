@@ -24,7 +24,7 @@ model_params:
   rpn_pos_fraction : 0.5
   roi_iou_threshold : 0.5
   roi_low_bg_iou : 0.0 # increase it to 0.1 for hard negative
-  roi_pool_size : 7
+  roi_pool_size : 28
   roi_nms_threshold : 0.3
   roi_topk_detections : 300
   roi_score_threshold : 0.05
@@ -37,5 +37,5 @@ train_params:
   acc_steps : 1 # increase you want to get gradients from >1 steps(kind of mimicking >1 batch size)
   num_epochs: 20
   lr_steps : [12, 16]
-  lr: 0.001
+  lr: 0.0001
   ckpt_name: 'faster_rcnn_decay.pth'
