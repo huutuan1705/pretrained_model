@@ -23,7 +23,7 @@ model_params:
   rpn_batch_size : 512
   rpn_pos_fraction : 0.5
   roi_iou_threshold : 0.5
-  roi_low_bg_iou : 0.0 # increase it to 0.1 for hard negative
+  roi_low_bg_iou : 0.1 # increase it to 0.1 for hard negative
   roi_pool_size : 28
   roi_nms_threshold : 0.3
   roi_topk_detections : 300
